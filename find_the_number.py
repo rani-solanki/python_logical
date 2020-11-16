@@ -1,0 +1,15 @@
+list=[1,1,1,4,1,1]
+i=0
+while(i<len(list)-1):
+    j=0
+    a=[]
+    while(j<len(list)):
+        if(list[i]!=list[j]):
+            temp=list[i]
+            list[i]=list[j]
+            list[j]=temp
+            a.append(list[i])
+            break
+        j=j+1
+    i=i+1
+print(a)
