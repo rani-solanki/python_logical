@@ -1,7 +1,7 @@
 user=input("enter the string:>")
 index_number = 0
-count =0
-cou=0
+count_lowercase =0
+count_uppercase=0
 while(index_number<len(user)):
     if user[index_number].islower():
         count=count+1
